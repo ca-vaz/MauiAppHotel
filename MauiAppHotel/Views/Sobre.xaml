@@ -20,7 +20,7 @@
 
         <Button Text="Voltar" 
                 HorizontalOptions="Center"
-                Margin="0,30,0,0"
+                Margin="0,30,0,0" 
                 Clicked="Button_Clicked"/>
 
     </VerticalStackLayout>
