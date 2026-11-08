@@ -46,8 +46,7 @@
                        HorizontalTextAlignment="Center"
                        Margin="0, 20, 0, 5"/>
                 <Picker x:Name="pck_quarto" 
-                        ItemDisplayBinding="{Binding Nome}"
-                        Title="Selecione a sua suíte"/>
+                        ItemDisplayBinding="{Binding Nome}"/>
 
                 <Border StrokeShape="RoundRectangle 10"
                         BackgroundColor="{StaticResource CoralSuave}"
