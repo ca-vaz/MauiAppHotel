@@ -65,7 +65,12 @@
                 </Border>
 
                 <Button Text="Calcular!" />
-                        
+
+                <Button Text="Sobre" 
+                        HorizontalOptions="End"
+                        Margin="0,80,0,0"
+                        Clicked="Button_clicked"/>
+
             </VerticalStackLayout>
         </Border>
         

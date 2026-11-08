@@ -6,4 +6,9 @@ public partial class ContratacaoHospedagem : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private void Button_clicked(object? sender, EventArgs e)
+	{
+		Navigation.PushAsync(new Sobre());
+	}
 }
