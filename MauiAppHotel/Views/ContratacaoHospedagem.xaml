@@ -73,7 +73,7 @@
 
                 <Button Text="Sobre" 
                         HorizontalOptions="End"
-                        Margin="0,80,0,0"
+                        Margin="0,50,0,0"
                         BackgroundColor="Grey"
                         Clicked="Button_clicked"/>
 
