@@ -17,6 +17,12 @@
     <Color x:Key="Magenta">#D600AA</Color>
     <Color x:Key="MidnightBlue">#190649</Color>
     <Color x:Key="OffBlack">#1f1f1f</Color>
+    <Color x:Key="Terracota">#D97706</Color>
+    <Color x:Key="Areia">#F9F7F2</Color>
+    <Color x:Key="VerdeSalvia">#F4EFE6</Color>
+    <Color x:Key="VerdeFloresta">#3D5A50</Color>
+    <Color x:Key="CoralSuave">#D99B38</Color>
+    
 
     <Color x:Key="Gray100">#E1E1E1</Color>
     <Color x:Key="Gray200">#C8C8C8</Color>

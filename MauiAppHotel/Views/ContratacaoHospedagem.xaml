@@ -16,12 +16,12 @@
         <Label Text="Cálculo da Diária"
                FontFamily="Ranchers-Regular"
                HorizontalTextAlignment="Center"
-               TextColor="{StaticResource Primary}"
+               TextColor="{StaticResource VerdeFloresta}"
                FontSize="40"
                Margin="0, 50, 0, 50"/>
 
         <Border StrokeShape="RoundRectangle 10"
-                BackgroundColor="{StaticResource Gray600}">
+                BackgroundColor="{StaticResource VerdeSalvia}">
             <VerticalStackLayout Padding="10">
                 <Grid ColumnDefinitions="*, *, *"
                       RowDefinitions="Auto, Auto">
@@ -50,7 +50,7 @@
                         Title="Selecione a sua suíte"/>
 
                 <Border StrokeShape="RoundRectangle 10"
-                        BackgroundColor="{StaticResource Gray500}"
+                        BackgroundColor="{StaticResource CoralSuave}"
                         Margin="0, 20, 0, 20">
                     
                     <Grid RowDefinitions="Auto, Auto"
@@ -67,11 +67,14 @@
                     </Grid>
                 </Border>
 
-                <Button Text="Calcular!" Clicked="Button_Clicked"/>
+                <Button Text="Calcular!" 
+                        BackgroundColor="DarkOliveGreen"  
+                        Clicked="Button_Clicked"/>
 
                 <Button Text="Sobre" 
                         HorizontalOptions="End"
                         Margin="0,80,0,0"
+                        BackgroundColor="Grey"
                         Clicked="Button_clicked"/>
 
             </VerticalStackLayout>

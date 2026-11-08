@@ -20,6 +20,7 @@
 
         <Button Text="Voltar" 
                 HorizontalOptions="Center"
+                BackgroundColor="Grey"
                 Margin="0,30,0,0" 
                 Clicked="Button_Clicked"/>
 
